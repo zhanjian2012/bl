@@ -9,7 +9,7 @@ import java.io.Serializable;
  */
 public class BaseEntity implements Serializable{
 
-    protected int pageNo = 1;
+    protected int pageNo = 0;
 
     protected int pageSize = 10;
 
